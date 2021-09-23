@@ -6,7 +6,7 @@ import java.lang.reflect.Method;
 public class AnnotationExample {
 
 	@Override
-	@MethodInfo(author = "Ashika", comments = "Main mathod", date = "Sep 20", revision = 1)
+	@MethodInfo(author = "Ashika", comments = "Main method", date = "Sep 20", revision = 1)
 	public String toString() {
 		return "Overrided toString method";
 	}
